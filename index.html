@@ -1,0 +1,52 @@
+<html>
+	<head>
+	    <title>Web/Mail Hosting</title>
+		<meta charset="utf-8" />
+		<script src="/css/main.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Oswald:500|PT+Sans+Narrow" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.0/TweenMax.min.js"></script>
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+	<body onload="animate()">
+		<div id="gradient"></div>
+		
+		<div id="vertical">
+			<div id="owner">SkUniquell</div>
+			<div id="owner-position">Hosting (Web/Mail) and remote administration</div>
+			<div id="title">MAIL ME IF YOU NEED Web/Mail HOSTING OR HAVE JOB FOR ME</div>
+			<div id="contacts"><a href="mailto:support@skuniquell.net?subject=Job" style="color: white">MAIL ME</a> (Sergey)</div>
+			<div id="contacts"><a target="_blank" href="https://www.linkedin.com/in/sergey-a-091520124/" style="color: white">VISIT ME ON LINKEDIN</a></div>
+			<div id="contacts"><a target="_blank" href="https://t.me/DevilCoreBlack" style="color: white">Text me in Telegram</a></div>
+			<div id="mood"><a href="https://skuniquell.net/mood/" style="color: white">Relax and FPS Test (just move mouse and click)</a></div>
+		</div>
+		
+		
+<!-- Messenger Плагин чата Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Плагин чата code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "106420800870450");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/ru_RU/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	</body>
+</html>
