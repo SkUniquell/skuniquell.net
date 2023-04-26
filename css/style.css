@@ -71,6 +71,21 @@
 	animation-fill-mode: forwards;
 }
 
+#owner-position-2 {
+	opacity: 0;
+	position: relative;
+	top: 45%;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 1vw;
+	width: 90%;
+	padding-left: 15.3%;
+	color: #F4F4F4;
+	animation-name: fadeIn;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+}
+
 #title {
 	opacity: 0;
 	position: relative;

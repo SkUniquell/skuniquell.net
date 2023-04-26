@@ -2,5 +2,6 @@
 #title{position:relative;font-family:'Oswald',sans-serif;font-size:3.6vw;width:90%;padding-left:4.7%;color:#F4F4F4;}
 #owner{position:relative;font-family:'PT Sans Narrow',sans-serif;font-size:1.6vw;width:90%;padding-left:5%;color:#F4F4F4;}
 #owner-position{position:relative;font-family:'PT Sans Narrow',sans-serif;font-size:1.1vw;width:90%;padding-left:5%;color:#F4F4F4;}
+#owner-position-2{position:relative;font-family:'PT Sans Narrow',sans-serif;font-size:1.1vw;width:90%;padding-left:5%;color:#F4F4F4;}
 #vertical{position:relative;top:50%;transform:translate(0%,-60%);}
 body{top:0;left:0;margin:0;padding:0;background-color:#000000;}
