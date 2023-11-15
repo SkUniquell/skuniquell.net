@@ -1,15 +1,11 @@
-#telegram-button {
-      display: inline-block;
-      background-color: #0088cc;
-      color: white;
-      padding: 10px;
-      border-radius: 5px;
-      text-decoration: none;
-}
-
-#telegram-icon {
-      width: 20px;
-      height: 20px;
-      margin-right: 5px;
-      vertical-align: middle;
-}
+/* CSS для футера */
+footer {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+  }
+  
+  footer a {
+      color: white;  
+      font-size: 50px; 
+  }
