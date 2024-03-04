@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>IT tools</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <a href="/it/ip.html"><h2>Public IP address</h2></a>
+        <p>Determinate your public ip address</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <a href="/it/secure/index.html"><h2>KeePassWeb</h2></a>
+    <p>Open your credentials</p>
+  </div>
+</div>
+
+</body>
+</html>
